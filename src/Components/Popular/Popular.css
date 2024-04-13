@@ -17,7 +17,7 @@
     align-items: center;
     gap: 10px;
     height: 90vh;
-    margin-bottom: 65%;
+    margin-bottom: 55%;
 }
  .today p{
     margin-left: 30px;
@@ -31,16 +31,16 @@
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     margin: 5%;
-    margin-left: 15%;
+    margin-left: 10%;
     
 }
 .popular button{
-    width: 17%;
-    padding: 15px;
+    width: 15%;
+    padding: 13px;
     background-color: #ffe100;
     color: black;
     border: none;
-    border-radius: 10px;
+    border-radius: 4px;
     font-size: 15px;
     cursor: pointer; 
 }

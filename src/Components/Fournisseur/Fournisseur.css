@@ -1,0 +1,49 @@
+.producteur{
+    display: flex;
+    width: 90%;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    margin: 3%;
+}
+.profil{
+    display: block;
+    width: 35%;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-right: 5%;
+    height: 71vh;
+    align-items: center;
+    justify-content: left;
+    border-right: 2px solid rgb(197, 197, 197);
+    
+}
+
+.profil .avatar img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid var(--main-yellow);
+    margin-bottom: 10%;
+}
+
+.profil h2{
+    font-size: 19px;
+}
+.profil .location{
+    display: flex;
+}
+.profil .location .location-icon{
+    color: gray;
+    font-size: 28px;
+}
+.profil .location p{
+    font-size: 13px;
+    color: gray;
+    padding: 2%;
+}
+
+.producteur .producteur-item{
+    display: flex;
+    margin-left: 0%;
+    gap: 30px;
+}

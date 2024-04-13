@@ -1,0 +1,21 @@
+h2{
+    margin-left: 18%;
+    font-weight: 500;
+}
+.producteurs{
+    display: block;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+    margin-bottom: 35%;
+}
+.producteur-item{
+    width: 80%;
+    margin-top: 10px;
+    display: block;
+    gap: 10px;
+    justify-content: center;
+    margin: 5%;
+    margin-left: 15%;
+    
+}

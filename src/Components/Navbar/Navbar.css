@@ -139,6 +139,14 @@
   text-align: center;
   
 }
+#navbar-category :focus option{
+  color: black;
+  background-color: #fff;
+}
+#navbar-category select:focus{
+  background-color:var(--black);
+  color: #fff;
+}
 #navbar-category button{
   height: 35px;
   align-items: normal;
