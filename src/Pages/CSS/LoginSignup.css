@@ -1,0 +1,56 @@
+.content-login{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 13%;
+    margin-bottom: 10%;
+}
+.content-login .banner{
+    float: left;
+    
+}
+.content-login .banner img{
+    width: 80%;
+    margin-left: -4%;
+}
+.content-login .form-connect {
+ margin-top: 5%;
+ width: 40%;
+padding: 20px;
+}
+.form-connect p{
+    font-size: 13px;
+}
+.form-connect input {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border: none;
+  border-bottom: 2px solid rgb(199, 199, 199);
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-bottom: 2px solid rgb(199, 199, 199);
+}
+.form-connect button{
+    width: 45%;
+    padding: 10px;
+    margin-top: 10%;
+    background-color: #ffe100;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer; 
+    justify-content: center;
+    align-items: center;
+}
+.form-connect .update-pwd{
+    text-decoration: none;
+    color: var(--main-yellow);
+    float: right;
+    margin-top: -7%;
+    font-size: 14px;
+}

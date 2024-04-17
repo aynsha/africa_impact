@@ -1,5 +1,7 @@
 import React from 'react'
 import './ItemProducteur.css';
+import cart from '@iconify/icons-mdi/cart-outline';
+import { Icon } from '@iconify/react/dist/iconify.js';
 
 const ItemProducteur = (props) => {
   return (
@@ -15,6 +17,8 @@ const ItemProducteur = (props) => {
             {props.old_price}
         </div>
       </div>
+        <button>
+          <Icon icon={cart} className='cart'/>Add to card</button>
     </div>
     </div>
   )

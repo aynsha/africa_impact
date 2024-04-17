@@ -9,7 +9,9 @@ const Footer = () => {
     <footer> 
     <div className="nav-menu">
     <div className="logo-footer">
+      <Link to="/">
       <img src={marque} alt=""/>
+      </Link>
       <p>ImpactAfrica est une plateforme panafricaine dédiée à la vente de produits et services en Afrique</p>
       </div>
       <div className='les-links'>

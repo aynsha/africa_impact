@@ -1,7 +1,7 @@
 .item{
     width: 250px;
     height: 295px;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
     background-color: var(--bg-light);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     
@@ -14,7 +14,7 @@
 .item-prices{
     display: flex;
     gap: 20px;
-    padding: 15px;
+    padding: 10px;
 }
 .item-price-new{
     color: #ffe100;
@@ -35,4 +35,16 @@
 .item img{
     width: 100%;
    
+}
+.item button{
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding: 2px;
+    border: none;
+    margin-top: -20%;
+}
+.item button .cart-ic{
+    font-size: 35px;
+    padding: 5px;
 }

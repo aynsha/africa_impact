@@ -1,4 +1,6 @@
-
+.navbar-full{
+  position: fixed;
+}
 #navbar{
     display: flex;
     z-index: 1000;
@@ -110,7 +112,7 @@
 #navbar-category{
   z-index: 1000;
     position:fixed ;
-    margin-top: 75px; 
+    top: 75px; 
     left: 0%;
     right: 0%;
     width: 100%;

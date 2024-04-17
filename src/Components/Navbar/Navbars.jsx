@@ -34,10 +34,12 @@ const Navbars = () => {
     });
   };
   return (
-    <>
+    <div className="navbar-full">
     <div id="navbar" className="navbar-fixed-top">
       <div className="nav-logo">
+        <Link to="/">
         <img src={logo} alt="" />
+        </Link>
       </div>
       <div class="search-bar">
         <div class="search-category">
@@ -127,7 +129,7 @@ const Navbars = () => {
           {categories.categorie4 && <div>Contenu pour catégorie 4: {categories.categorie4}</div>}
           {categories.categorie5 && <div>Contenu pour catégorie 5: {categories.categorie5}</div>} 
   </div>
-    </>
+    </div>
   );
 };
 

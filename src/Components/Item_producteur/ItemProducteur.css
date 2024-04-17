@@ -1,7 +1,7 @@
 
 .product{
     width: 200px;
-    height: 270px;
+    height: 280px;
     margin-bottom: 3%;
     background-color: var(--bg-light);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -34,4 +34,16 @@
 .product img{
     width: 100%;
    
+}
+.product button{
+    width: 200px;
+    color: white;
+    background-color: black;
+    padding: 2px;
+    border: none;
+    margin-top: -35%;
+}
+.product button .cart{
+    font-size: 25px;
+    padding: 3px;
 }

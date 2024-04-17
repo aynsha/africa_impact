@@ -1,4 +1,4 @@
-h2{
+.producteurs h2{
     margin-left: 18%;
     font-weight: 500;
 }
@@ -7,7 +7,7 @@ h2{
     align-items: center;
     gap: 10px;
     height: 90vh;
-    margin-bottom: 35%;
+    margin-bottom: 50%;
 }
 .producteur-item{
     width: 80%;
